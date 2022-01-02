@@ -1,0 +1,417 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #eee;
+}
+.header{
+    position:fixed;
+    top: 0; left: 0; right: 0;
+    background: rgb(233, 230, 230);
+   padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 8px 9px 20px rgb(123, 125, 143);
+}
+
+.navbar a:hover
+{
+    background-color: rgb(204, 204, 212);
+     
+  
+}
+.navbar i,
+.navbar span{
+   color: blue;
+}
+
+#menu-bars{
+    display: none;
+}
+.icons{
+    font-size: 2rem;
+}
+
+.navbar span,
+.navbar i{
+ 
+    font-size: 2rem;
+}
+.navbar a{
+    text-decoration: none;
+}
+.header .navbar a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: var(--light-color);
+  }
+  .logo i{
+      font-size: 2rem;
+      color:  rgb(50, 50, 206);
+  }
+  .logo a{
+      text-decoration: none;
+  }
+  .logo span{
+      color: black;
+      font-size: 20px;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 1rem;
+    background-color: rgb(255, 255, 255);
+right: 0;  
+    width: 100%;
+}
+.col-1 p{
+    font-size: 1.5rem;
+   
+}
+.col-1{
+    margin-top: 10rem;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+  
+}
+.col-2 img{
+    padding-top: 10rem;
+    padding-left: 6rem;
+    height: 40rem;
+    width: 45rem;
+    padding-bottom: 1rem;
+}
+.col-2 h1{
+    font-size: 6rem;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+
+
+.container-1{
+    bottom: 0; left: 0; right: 0;
+    background: rgb(158, 175, 212);
+   padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    right: 0;
+  
+}
+
+.social a{
+    padding-right: 2rem;
+    font-size: 2rem;
+}
+.social i{
+    color: rgb(50, 50, 206);
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap: 1.5rem;
+}
+  .box-container{
+    width: 100%;
+}
+.box{
+    padding: 2.5rem;
+    background: #fff;
+    border-radius: .5rem;
+   
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 7px 7px 5px rgb(201, 179, 179);
+   margin-top: 1rem;
+  
+}
+
+  
+ .box-container .fa-heart,
+ .box-container .fa-eye{
+    position: absolute;
+    top: 1.5rem;
+    background: #eee;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: black;
+}
+  .fa-eye{
+    right: -15rem;
+
+}
+
+ .books .box-container .box .fa-heart{
+     left:-15rem
+ }
+ .books .box-container .box:hover .fa-eye{
+    right: 1.5rem;
+
+}
+
+.books .box-container .box:hover .fa-heart{
+     left:1.5rem
+ }
+ .books .box-container .box .fa-eye:hover{
+   color: #fff;
+   background: darkorange;
+
+}
+.bog{
+    margin-top: 7rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+ .box-container .fa-heart:hover{
+    color: #fff;
+    background: darkorange;
+
+ }
+ .heading{
+     text-align: center;
+     font-size: 3rem;
+ }
+ .books .box-container .box img{
+     height: 17rem;
+     margin: 1rem 0;
+ }
+ .books .box-container .box h3{
+     color: black;
+     font-size: 2.5rem;
+
+ }
+ .books .box-container .starts{
+   padding: 1rem 0;
+    
+}
+.books .box-container .starts i{
+   font-size: 1.7rem;
+   color: rgb(15, 0, 231);
+     
+ }
+ .books .box-container .box span{
+     color: rgb(0, 4, 224);
+     font-weight: bolder;
+     margin-right: 3rem;
+     font-size: 2.5rem;
+ }
+ .wrapp{
+     width: 100%;
+ }
+ .price{
+     color: black;
+ }
+ .books{
+     padding: 2rem;
+     
+ }
+ span i{
+     background-color: blue;
+     font-size: 1.5rem;
+     padding: 1rem;
+     border-radius: .5rem;
+     color: aliceblue;
+ }
+ span i:hover{
+     background-color: rgb(25, 25, 51);
+     color: #fff;
+     letter-spacing: .1rem;
+ }
+ .flex{
+     display: flex;
+     font-size: 3rem;
+ }
+
+
+
+
+/*
+
+ @media(max-width:991px)
+ {
+     html{
+         font-size: 55%; 
+     }
+     header{
+         padding: 1rem 2rem;
+     }
+     .menu{
+         display: block;
+     }
+ }
+ @media (max-width: 789px) 
+ {
+     .icons #menu-bars{
+         display: block;
+     }
+    .navbar{
+         position: absolute;
+         top: 100%; left: 0; right: 0;
+         background-color: #fff;
+         border-top: .1rem solid rgba(0,0,0,.1);
+         padding: 1rem;
+         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+     }
+     .navbar.active{
+         clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+     }
+     .navbar a{
+         display: block;
+         padding: 1.5rem;
+         margin: 1rem;
+         font-size: 2rem;
+         background-color: #eee;
+     }
+     .box{
+      
+         padding: 2.5rem;
+         background: #fff;
+         border-radius: .5rem;
+        
+         position: relative;
+         overflow: hidden;
+         text-align: center;
+         box-shadow: 7px 7px 5px rgb(201, 179, 179);
+        margin-top: 1rem;
+       
+        
+     }
+     .box-container{
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+       gap: 1rem;
+   }
+    
+ }
+ @media  (max-width: 991px)
+ {
+     html{
+         font-size: 50%; 
+     }
+    
+   
+ 
+   
+
+     
+ }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  @media (max-width: 600px) 
+  {
+      .icons #menu-bars{
+          display: block;
+      }
+     .navbar{
+          position: absolute;
+          top: 100%; left: 0; right: 0;
+          background-color: #fff;
+          border-top: .1rem solid rgba(0,0,0,.1);
+          padding: 1rem;
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+      }
+      .navbar.active{
+          clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+      }
+      .navbar a{
+          display: block;
+          padding: 1.5rem;
+          margin: 1rem;
+          font-size: 2rem;
+          background-color: #eee;
+      }
+      .box{
+       
+          padding: 2.5rem;
+          background: #fff;
+          border-radius: .5rem;
+         
+          position: relative;
+          overflow: hidden;
+          text-align: center;
+          box-shadow: 7px 7px 5px rgb(201, 179, 179);
+         margin-top: 1rem;
+        
+         
+      }
+      .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+        gap: 1rem;
+    }
+     
+  }
+  
+    
+  
+    
+
+      
+  
